@@ -1,0 +1,23 @@
+{
+  "name": "ludo-for-web-client",
+  "version": "0.0.0",
+  "description": "A simple ludo game for web",
+  "main": "index.js",
+  "author": "Ayudh Das",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
+    "typescript": "^4.0.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
