@@ -1,0 +1,42 @@
+// variables
+$accent-color: #808e9b;
+$chat-background-color: #485460;
+$chat-bubble-background-color: #d2dae2;
+$chat-button-color: #3c40c6;
+$chat-button-text-color: #d2dae2;
+$chat-text-color: #1e272e;
+$red-color: #f53b57;
+$log-line-color: #ef5777;
+
+// mixins
+@mixin labelText {
+  font-family: "SourceSansPro", sans-serif;
+  font-size: 18px;
+}
+
+@mixin chatInputPlaceholderText {
+  font-family: "SourceSansPro-Light", sans-serif;
+  font-size: 16px;
+}
+
+@mixin activityLogText {
+  font-family: "SourceSansPro-LightItalic", sans-serif;
+  font-size: 12px;
+}
+
+@mixin panelCommons {
+  margin:4px;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #1e272e;
+  box-shadow: 0 1px 4px 2px #485460;
+  color: #d2dae2;
+  display: flex;
+}
+
+// global rules start from here
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
