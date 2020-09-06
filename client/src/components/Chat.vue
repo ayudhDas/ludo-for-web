@@ -17,6 +17,7 @@
 
 <script>
 import {scrollToBottom} from "../utils/domHelpers";
+import socket from '../socket.ts';
 
 export default {
   name: "Chat",
@@ -30,6 +31,9 @@ export default {
   methods: {
     onChatSubmitted(ev) {
       ev.preventDefault();
+      socket.emit('chat:message', {
+        text: this.chatText,
+      })
       if (this.chatText && this.chatText.trim() !== '') {
         this.chatPosting = true;
         this.chatLog.push(this.chatText);

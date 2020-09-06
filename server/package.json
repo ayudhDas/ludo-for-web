@@ -1,0 +1,15 @@
+{
+  "name": "ludo-for-web-server",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Ayudh Das",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
